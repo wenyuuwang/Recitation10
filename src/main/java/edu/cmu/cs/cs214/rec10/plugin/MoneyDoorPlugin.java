@@ -31,6 +31,7 @@ public class MoneyDoorPlugin implements GamePlugin {
     }
 
     public void onRegister(GameFramework fwk) {
+        System.out.println("fixed");
         this.framework = fwk;
     }
 
